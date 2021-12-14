@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import logo from "../logo.svg";
 
-function MainPage() {
+function Dashboard() {
     const [count, setCount] = useState(0)
 
     return (
@@ -41,4 +41,4 @@ function MainPage() {
     )
 }
 
-export default MainPage
+export default Dashboard

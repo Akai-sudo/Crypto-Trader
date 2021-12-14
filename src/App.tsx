@@ -1,11 +1,11 @@
 import './App.css'
 import React from 'react'
 
-import MainPage from "./components/MainPage";
+import Dashboard from "./components/Dashboard";
 
 function App() {
     return(
-        <MainPage/>
+        <Dashboard/>
     )
 }
 export default App
