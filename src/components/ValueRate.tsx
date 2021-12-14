@@ -1,9 +1,6 @@
-//import React, {useState} from "react";
-//import logo from "../logo.svg";
-
 import React from "react"
 
-function ValueRate() {
+const ValueRate = () => {
     return (
         <div className="valueRate">
             <p>Current Ethereum value is: </p>
