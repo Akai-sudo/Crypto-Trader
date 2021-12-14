@@ -17,7 +17,7 @@ h2 {
 }
 
 .valueRate {
-  background-color: black;
+  background-color: black; /**more bit azure kjer je black**/
 }
 
 .valueRate > p {
