@@ -1,9 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import ethereum from '../../public/assets/Ethereum.svg'
 
 function Dashboard() {
-    const [count, setCount] = useState(0)
-
     return (
         <div className="Dashboard">
             <header className="App-header">
