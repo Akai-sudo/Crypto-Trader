@@ -22,7 +22,7 @@ h2 {
 }
 
 .valueRate {
-  background-color: black; /**more bit azure kjer je black**/
+  background-color: azure;
 }
 
 .valueRate > p {
@@ -37,16 +37,17 @@ h2 {
 
 .navBar {
   width:100%;
-  height:7%;
-  background-color: black;
+  height:9%;
+  background-color: azure;
   position: absolute;
-  top: 0;
+  top: 0px;
   display: inline-block;
+  text-align: right;
 }
 
 .navBar > p {
-  /**margin-right: 3%;
-  display: inline-block;**/
+  margin-right: 3%;
+  display: inline-block;
 }
 
 .footer {
