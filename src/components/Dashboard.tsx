@@ -5,15 +5,12 @@ function Dashboard() {
     const [count, setCount] = useState(0)
 
     return (
-        <div className="App">
+        <div className="Dashboard">
             <header className="App-header">
-                <img src={ethereum} className="App-logo" alt="logo" />
-                <p>Hello! I am your <b>automated crypo-trading</b> bot.</p>
-                <p>
-                    <button type="button" onClick={() => setCount((count) => count + 1)}>
-                        count is: {count}
-                    </button>
-                </p>
+                <img src={ethereum} width="30%" height="30%" className="App-logo" alt="logo" />
+                <p>Hello! I am your <b>automated crypto-trading</b> bot.</p>
+                <p>Your balance: </p>
+
                 <p>
                     <a
                         className="App-link"

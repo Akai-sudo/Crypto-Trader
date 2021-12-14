@@ -1,9 +1,29 @@
 .app {
-  display: flex;
+  display: flex block;
+}
+
+body {
+  background-color: azure;
+  font-family: "Andale Mono";
+}
+
+h2 {
+  padding: 0.9%;
+  margin: 0.9%;
 }
 
 .valueRate {
+  background-color: azure;
+}
+
+.valueRate > p {
+  margin: 0.9%;
+  padding: 0.9%;
+}
+
+.Dashboard {
   background-color: aliceblue;
+  text-align: center;
 }
 /**.App {
   text-align: center;
