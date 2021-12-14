@@ -28,7 +28,7 @@ h2 {
   background-color: azure;
   position: absolute;
   text-align: right;
-  padding: 1px;
+  /**padding: 1px;**/
 }
 
 .navBar > p {
