@@ -1,28 +1,23 @@
 import './App.css'
 import React from 'react'
+import { NavigationBar } from './components/NavigationBar';
+import { Dashboard } from './components/Dashboard';
+import { ValueRate } from './components/ValueRate';
+import { Footer } from './components/Footer';
 
-import {Dashboard} from "./components/Dashboard";
-import {ValueRate} from "./components/ValueRate";
-import {NavigationBar} from "./components/NavigationBar";
-import {Footer} from "./components/Footer";
 
-export const App: React.FC = () => {
-    return(
-        <>
-            <div className="navBar">
-                <NavigationBar/>
-            </div>
+function App() {
+    return (
+        <div className="app">
+            <NavigationBar />
 
-            <div className="app">
-                <Dashboard/>
-                <ValueRate/>
-            </div>
+            <Dashboard />
+            <ValueRate />
 
-            <div className="footer">
-                <Footer/>
-            </div>
-        </>
+            <Footer />
+        </div>
     )
 }
+
 export default App
 
