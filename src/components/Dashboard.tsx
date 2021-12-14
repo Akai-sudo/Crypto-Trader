@@ -15,9 +15,6 @@ function Dashboard() {
                     </button>
                 </p>
                 <p>
-                    Edit <code>App.tsx and ur crated components</code> and save to test HMR updates.
-                </p>
-                <p>
                     <a
                         className="App-link"
                         href="https://reactjs.org"
