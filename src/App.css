@@ -1,6 +1,8 @@
 .app {
   display: flex block;
   padding-top: 3%;
+
+  overflow: hidden;
 }
 
 h2 {
