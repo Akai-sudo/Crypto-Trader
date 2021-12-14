@@ -10,29 +10,7 @@ function Dashboard() {
                 <img src={ethereum} width="30%" height="30%" className="App-logo" alt="logo" />
                 <p>Hello! I am your <b>automated crypto-trading</b> bot.</p>
                 <p>Your current balance: 0$</p>
-                <p>Your money-maker: </p>
-
-
-
-                <p>
-                    <a
-                        className="App-link"
-                        href="https://reactjs.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Learn React
-                    </a>
-                    {' | '}
-                    <a
-                        className="App-link"
-                        href="https://vitejs.dev/guide/features.html"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Vite Docs
-                    </a>
-                </p>
+                <p>Your money-maker of the week: </p>
             </header>
         </div>
     )
