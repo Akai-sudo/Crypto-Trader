@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import ethereum from '../Ethereum.svg'
+import ethereum from '../../public/assets/Ethereum.svg'
 
 function Dashboard() {
     const [count, setCount] = useState(0)
