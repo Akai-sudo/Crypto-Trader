@@ -1,5 +1,5 @@
 import React from "react";
-import ethereum from '../../public/assets/Ethereum.svg'
+import ethereum from '/assets/Ethereum.svg'
 
 export const Dashboard: React.FC = () => {
     return (
