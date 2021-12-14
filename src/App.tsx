@@ -4,6 +4,7 @@ import { NavigationBar } from './components/NavigationBar';
 import { Dashboard } from './components/Dashboard';
 import { ValueRate } from './components/ValueRate';
 import { Footer } from './components/Footer';
+import { OrderBook } from './components/OrderBook';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
 
             <Dashboard />
             <ValueRate />
+            <OrderBook />
 
             <Footer />
         </div>
