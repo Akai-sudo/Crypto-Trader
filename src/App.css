@@ -11,6 +11,11 @@
   position: relative;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h2 {
   padding: 0.9%;
   margin: 0.9%;
