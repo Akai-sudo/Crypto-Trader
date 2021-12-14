@@ -1,6 +1,6 @@
 import React from "react"
 
-const ValueRate = () => {
+export const ValueRate: React.FC = () => {
     return (
         <div className="valueRate">
             <h2>Real-time crypto fluctuations: </h2>
@@ -9,5 +9,3 @@ const ValueRate = () => {
         </div>
     )
 }
-
-export default ValueRate

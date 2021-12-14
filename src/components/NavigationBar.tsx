@@ -1,6 +1,6 @@
 import React from "react"
 
-const NavigationBar = () => {
+export const NavigationBar: React.FC = () => {
     return (
         <div className="navBar">
             <p><b>LOGIN</b></p>
@@ -9,5 +9,3 @@ const NavigationBar = () => {
         </div>
     )
 }
-
-export default NavigationBar

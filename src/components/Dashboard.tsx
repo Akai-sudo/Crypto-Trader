@@ -1,7 +1,7 @@
 import React from "react";
 import ethereum from '../../public/assets/Ethereum.svg'
 
-function Dashboard() {
+export const Dashboard: React.FC = () => {
     return (
         <div className="Dashboard">
             <header className="App-header">
@@ -13,5 +13,3 @@ function Dashboard() {
         </div>
     )
 }
-
-export default Dashboard
