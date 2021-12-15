@@ -1,9 +1,9 @@
 .app {
   position: relative;
   width: 100%;
-  padding-top: 3%;
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-top: 40px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 html {
@@ -17,8 +17,15 @@ html, body {
 }
 
 h2 {
-  padding: 0.9%;
-  margin: 0.9%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.data {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .valueRate {
@@ -26,36 +33,37 @@ h2 {
 }
 
 .valueRate > p {
-  margin: 0.9%;
-  padding: 0.9%;
+  margin: 10px;
+  padding: 10px;
 }
 
 .Dashboard {
   background-color: aliceblue;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 .navBar {
   width:100%;
-  height:9%;
+  height: 50px;
   background-color: azure;
   position: absolute;
-  top: 0px;
+  top: 0;
   display: inline-block;
   text-align: right;
 }
 
 .navBar > p {
-  margin-right: 3%;
+  margin-right: 25px;
   display: inline-block;
 }
 
 .footer {
   text-align: center;
   background-color: white;
-  width:100%;
+  width: 100%;
   position: absolute;
-  height: 8%;
+  height: 20px;
 }
 /**.App {
   text-align: center;

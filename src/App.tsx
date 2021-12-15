@@ -13,9 +13,10 @@ function App() {
             <NavigationBar />
 
             <Dashboard />
-            <ValueRate />
-            <OrderBook />
-
+            <div className="data">
+                <ValueRate />
+                <OrderBook />
+            </div>
             <Footer />
         </div>
     )
