@@ -6,12 +6,12 @@
   padding-right: 0%;
 }
 
-* {
-  overflow: hidden;
-  position: relative;
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
 }
