@@ -16,6 +16,11 @@ html, body {
   padding: 0;
 }
 
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 h2 {
   padding: 10px;
   margin: 10px;
