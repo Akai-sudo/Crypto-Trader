@@ -9,20 +9,24 @@ export const ValueRate: React.FC = () => {
     const [loaded, setIsLoaded] = useState(false)
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/ticker/btceur")
-            .then(res => res.json())
-            .then(data => {setPriceBTC(data.last); setIsLoaded(true);})
-            .catch(e => {console.log(e); setError(e);})
+        const interval = setInterval(() => {
+            fetch("http://localhost:3000/api/ticker/btceur")
+                .then(res => res.json())
+                .then(data => {setPriceBTC(data.last); setIsLoaded(true);})
+                .catch(e => {console.log(e); setError(e);})
 
-        fetch("http://localhost:3000/api/ticker/etheur")
-            .then(res => res.json())
-            .then(data => {setPriceETH(data.last); setIsLoaded(true);})
-            .catch(e => {console.log(e); setError(e);})
+            fetch("http://localhost:3000/api/ticker/etheur")
+                .then(res => res.json())
+                .then(data => {setPriceETH(data.last); setIsLoaded(true);})
+                .catch(e => {console.log(e); setError(e);})
 
-        fetch("http://localhost:3000/api/ticker/algoeur")
-            .then(res => res.json())
-            .then(data => {setPriceALGO(data.last); setIsLoaded(true);})
-            .catch(e => {console.log(e); setError(e);})
+            fetch("http://localhost:3000/api/ticker/algoeur")
+                .then(res => res.json())
+                .then(data => {setPriceALGO(data.last); setIsLoaded(true);})
+                .catch(e => {console.log(e); setError(e);})
+        }, 1000)
+
+        return (()=> clearInterval(interval))
     }, [])
 
     if (!loaded) {
